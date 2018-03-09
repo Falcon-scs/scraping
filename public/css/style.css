@@ -1,0 +1,91 @@
+.header{
+  margin-bottom: 10px;
+}
+.header img{
+  /*margin-left: 50px;*/
+  margin-top: 20px;
+}
+.search-form {
+  padding: 10px;
+}
+.search-form form {
+  /*border: 1px solid #e0e1e1;*/
+    padding: 30px;
+}
+.float-left {
+  float: left;
+  margin-right: 10px;
+}
+p.search-title {
+  font-size: 20px;
+  color: blue;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.row {
+  margin-top: 10px !important;
+}
+#loaderDiv {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 20000;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#keyword_sic_naics_allSics_form_results {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #d5d5d5;
+    padding-left: 39px;
+    overflow-x: hidden; 
+}
+
+#major_industry_group_result{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #d5d5d5;  
+        padding-left: 39px;
+    overflow-x: hidden; 
+}
+.sales_volumn_form{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #d5d5d5;  
+    padding-left: 39px;
+    overflow-x: hidden;  
+}
+.myradio {
+  margin-left: 5px !important;
+  margin-top: 10px !important;
+}
+
+
